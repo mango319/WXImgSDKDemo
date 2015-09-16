@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal" >
+    	<TextView 
+    	    android:id="@+id/resText"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="fill_parent"
+    	    />
+
+    	<ImageView
+    	    android:id="@+id/resImg"
+    	    android:layout_width="wrap_content"
+    	    android:layout_marginLeft="10dp"
+    	    android:layout_height="120sp"
+    	     />
+
+    </LinearLayout>
+    <View  android:layout_height="1px" android:background="#0F0F0F"       
+        android:layout_width="fill_parent"></View>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    	<TextView
+    	    android:id="@+id/recRes"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:textSize="20sp"
+    	    android:text="@string/recres" />
+    	<TextView
+    	    android:id="@+id/recmd5"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="20sp"
+    	    android:gravity="left"
+    	    android:text="" />
+    	<TextView
+    	    android:id="@+id/recPicDesc"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="20sp"
+    	    android:gravity="left"
+    	    android:text="" />
+
+    </LinearLayout>
+</LinearLayout>
